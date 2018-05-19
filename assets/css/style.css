@@ -1,0 +1,193 @@
+a:visited {
+    color: darkgrey;
+}
+h1 {
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-size: 30px;
+    padding: 20px;
+	margin-bottom: 20px;
+    margin-top:  -10px;
+    float: left;
+    display: block;
+    top: 0;
+    margin-left: 10%;
+}
+.navbar a {
+    float:right; 
+    width: 100%;
+    border-bottom: solid;
+    border-width: 400px;
+    border-color: #ccc;
+    font-size: 30px;
+}
+
+/** About **/
+
+#bio {
+    padding-top: 100px;
+    align-content: center;
+
+}
+h2 {
+	color: #4aaaa5;
+    text-align: left;
+    margin-left: 20px;
+}
+header {
+	background: #ffffff;
+    font-family: 'Georgia', Times, serif;
+	border-bottom: solid;
+	border-color: #ccc;
+	border-width: 3px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-right: 10%;
+}
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: darkgrey;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#top {
+	margin-left: -20px;
+}
+footer {
+	padding-top: 5px;
+	background: #666666;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: solid;
+	border-color: #4aaaa5;
+	border-width: 10px;
+}
+footer p {
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+}
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    background-image: url("intersection.png");
+}
+body p {
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+img {
+    float: left;
+    margin: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#content {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	max-width: auto;
+	margin: 10px;
+    overflow: hidden;
+    clear: both;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.pic {
+	display: block;
+	max-width: 120px;
+  	border-radius: 10%;
+  	clear: right;
+  	margin-left: 20px;
+}
+
+/***Contact **/
+
+form {
+	line-height: 1.3;
+	margin-left: 1em;
+}
+
+input {
+	width: 98%;
+}
+
+textarea {
+	width: 98%;
+	height: 100px;
+	resize: none;
+
+}
+
+.button {
+	width: 70px;
+   	height: 25px;
+   	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	border-radius: 15%;
+}
+/**** Portfolio ***/
+#gallery {
+  	list-style: none;
+}
+
+#gallery li a p {
+  	margin: 0;
+  	padding: 1%;
+  	font-size: 16px;
+}
+
+#gallery li {
+  	float: left;
+  	margin: 2.5%;
+  	position: relative;
+  	text-align: center;
+}
+
+#gallery p {
+	position: absolute;
+	bottom: -11px;
+	text-align: center;
+	width: 98%;
+	right: 49.5555px;
+	color: white;
+	transform: translate(6%, -47%);
+	background-color: #4aaaa5;
+}
+
+#gallery img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: -25px;
+}
